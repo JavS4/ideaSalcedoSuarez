@@ -56,10 +56,12 @@ nav ul li a{
 
 nav ul li a:hover{
     color: white;
+    transform: scale(1.1,1.1);
+    transition: all 0.5s;
 }
 
 main{
-    background-color: rgb(137, 214, 214);
+    background-image: linear-gradient(to left,rgba(30, 72, 189, 0.767),rgba(0, 255, 255, 0.596));
 }
 
 ul{
@@ -260,6 +262,11 @@ footer ul{
 
 footer ul li i{
     font-size:30px;
+}
+
+footer ul li i:hover{
+    transform: scale(1.5,1.5);
+    transition: all 0.5s;
 }
 
 footer span{
