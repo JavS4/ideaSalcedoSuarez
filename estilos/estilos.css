@@ -30,6 +30,8 @@ header {
 nav {
   font-size: 25px;
   font-weight: 850;
+  display: flexbox;
+  align-content: space-between;
 }
 
 #club {
@@ -243,7 +245,7 @@ button:hover {
 footer {
   margin: auto;
   padding: 40px 0;
-  background-color: rgb(38, 73, 148);
+  background-color: rgba(240, 240, 240, 0.87);
 }
 footer .redes {
   text-align: center;
@@ -262,7 +264,7 @@ footer .redes a {
   margin: 0 8px;
   opacity: 80%;
 }
-footer .redes a :hover {
+footer .redes a:hover {
   opacity: 0.9;
 }
 footer ul {
@@ -283,8 +285,12 @@ footer ul li a {
   text-decoration: none;
   opacity: 0.8;
 }
-footer ul li a :hover {
-  opacity: 1;
+footer ul li a:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s;
+  opacity: 4;
+  text-decoration: none;
+  color: inherit;
 }
 footer .copyright {
   margin-top: 15px;
